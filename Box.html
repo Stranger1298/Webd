@@ -5,30 +5,229 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box method</title>
+    <style>
+        .one{
+            background-color: rgb(133, 253, 213);
+            border-style: dotted;
+            padding-left: 20px;
+            box-sizing: border-box;
+            border-color: blueviolet;
+            /* border-top: 10cm; */
+            /* padding-right: 5cm; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            /* margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 100px;
+            margin-bottom: 50px; */
+            margin: auto;
+            /* width: 500px; */
+            display: inline-block;
+            width: 33%;
+            
+        }
+        .two{
+            background-color: rgb(225, 127, 250);
+            border-style:ridge;
+            padding-left: 20px;
+            box-sizing: border-box;
+            border-color: blueviolet;
+            /* border-top: 40px; */
+            /* padding-right: 5cm; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            /* margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 100px;
+            margin-bottom: 50px; */
+            /* margin: auto; */
+            /* width: 500px; */
+            display: inline-block;
+            width: 33%;
+            margin-top: 30px;
+             
+            
+        }
+
+        /* .two{
+            background-color: rgb(98, 115, 211);
+            border-style:dashed;
+            padding-left: 25px;
+            box-sizing: border-box;
+            border-color: rgb(236, 91, 7);
+            /* border-top: 10cm; */
+            /* padding-right: 5cm;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: small;
+            margin-top: 30px;
+            margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+            width: 500px;
+
+        } */
+ 
+        /* .three{ 
+            background-color: rgb(4, 213, 250);
+            border-style:double;
+            padding-left: 25px;
+            box-sizing: border-box;
+            border-color: rgb(252, 7, 19); */
+            /* border-top: 10cm; */
+            /* padding-right: 5cm;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: medium;
+            margin-top: 30px;
+            margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+            width: 500px;
+
+        }  */
+
+
+        /* .four{
+            background-color: rgb(247, 16, 235);
+            border-style:groove;
+            padding-left: 25px;
+            box-sizing: border-box;
+            border-color: rgb(10, 230, 39); */
+            /* border-top: 10cm; */
+            /* padding-right: 5cm;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+            margin-top: 30px;
+            margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+            width: 500px;
+
+        } */
+        html{
+            background-color: rgb(230, 251, 252);
+            
+        }
+        .c1{
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .c1:hover{
+            background-color: rgb(12, 226, 137);
+        }
+        .navbar{
+            background-color: rgb(247, 117, 117);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-radius: 20px;
+            
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding:4px 8px 8px;
+
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding: 3px 3px;
+            color: rgb(249, 253, 253);
+        }
+        
+        .navbar ul li a:hover{
+            color: black;
+        
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .search{
+            float:right;
+            padding: 12px 50px;
+            /* color: white; */
+
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+            
+        }
+        .pic{
+            /* margin-left: 600px; */
+            margin: auto;
+            display: block;
+            width: 34px;
+            /* padding: 600px; */
+            
+        }
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* display: inline; */
+            text-align: center;
+            margin: auto;
+        }
+        h3{
+            color: rgb(68, 121, 122);
+        }
+    </style>
+<nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">About Us</a></li>
+        
+    <div class="search">
+        <input type="text" name="search" placeholder="Seach here">
+    </div>
+        </ul>    
+</nav>
+<a class="pic"><img src="/Code/Webd/gate/lol.png" alt="lolz img"></a>
+  <p><h1>Welcome to my blog</h1></p>  
 </head>
 <body>
-    <div class="one">
-        <h2>Heading one</h2>
-        <p>This is paragraph one</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
+    
+  
+  <div class="one">
+    <h3>Blog one</h3>
+    <p>This is paragraph two</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
+        <!-- <a href="#" class="c1">Read more</a> &nbsp;&nbsp;&nbsp;
+        <button class="c1">Report</button> -->
     </div>
 
-    <div class="two">
-        <h2>Heading two</h2>
+    <div class="one">
+        <h3>Blog two</h3>
         <p>This is paragraph two</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
     </div>
 
-    <div class="three">
-        <h2>Heading three</h2>
+    <div class="one">
+        <h3>Blog three</h3>
         <p>This is paragraph three</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
     </div>
 
-    <div class="four">
-        <h2>Heading four</h2>
+    <div class="two">
+        <h3>Blog four</h3>
         <p>This is paragraph four</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
     </div>
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqj-Ds2J0N73dibfrSaUjfmFmhdKnoFnSABH9OZCtqsps5QjlUI0l_n4wx7PsSoHGy09Y&usqp=CAU" alt="lappi" style="margin-left: 500px" > -->
+    <div class="two">
+        <h3>Blog five</h3>
+        <p>This is paragraph four</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
+    </div>
+    <div class="two">
+        <h3>Blog six</h3>
+        <p>This is paragraph four</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis rem deleniti officiis nobis animi mollitia assumenda quae eos? Eligendi est deleniti provident dolores magni hic molestias consequatur a autem porro?</p>
+    </div>
+    
 </body>
 </html>
