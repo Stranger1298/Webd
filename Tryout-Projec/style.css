@@ -1,0 +1,118 @@
+.left{
+    /* border: 2px solid rgb(70, 243, 2); */
+     display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    /* width: 40%; */
+}
+.left img{
+    width: 100px;
+    /* filter:invert(100%) */
+
+}
+/* .left div{
+    font-size: larger;
+    font-weight: 400;
+} */
+.navbar{
+    /* border: 2px solid red; */
+    display:inline-block;
+    position: absolute;
+    width: 50%;
+    margin: auto 400px;
+     text-decoration: none;
+}
+.navbar ul{
+    margin-top: 30px;
+    padding-left: 0px;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.navbar li a:hover{
+    font-size: 21px;
+    color:crimson;
+    text-decoration: 3px underline rgb(73, 99, 233);
+}
+.navbar li a.active{
+    text-decoration: 2px underline rgb(72, 100, 238);
+}
+.right{
+    /* border: 2px solid greenyellow; */
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 15%;
+    /* margin: auto; */
+    top: 30px;
+    
+}
+.btn1{
+    padding: 10px;
+    border: 3px solid rgb(250, 251, 252);
+    border-radius: 10px;
+    /* background-color: rgb(186, 194, 236); */
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.btn1:hover{
+    font-size: 15px;
+    background-color:white;
+}
+
+body{
+    background-color: rgb(22, 22, 43);
+    /* background-image: url(/img/img3.jpg); */
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: 'Josefin Sans',sans-serif;
+    /* height: 3264px;
+    width: 1340px; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 5000px; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* <img src="/img/img3.jpg" alt="img" height="3264px" width="1340px"> */
+}
+.container{
+    color: rgb(0, 140, 255);
+    display: inline-block;
+    border-radius: 40px;
+    margin: 200px 180px;
+    padding: 70px 75px;
+    font-size: 40px;
+    border: 2px solid whitesmoke;
+    /* text-align: center; */
+    
+}
+.form1 input{
+    text-align: center;
+    padding: 8px;
+    width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+
+}
+/* .form1 input:hover{
+    font-size: larger;
+} */
+.btn2{
+    margin-top: 20px;
+    font-size: 15px;
+    background-color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn2:hover{
+   font-size: large;
+}
