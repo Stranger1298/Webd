@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://thumbs.gfycat.com/UniqueLiveIberianmidwifetoad-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    
+}
+.btn{
+    background-color: rgba(215, 188, 240, 0.473);
+    height: 110px;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    left: 220px;
+    top: 350px;
+    background-image: none;
+    font-family: monospace;
+    font-size: 50px;
+}
+.btn:hover{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(137, 43, 226, 0.907);
+}

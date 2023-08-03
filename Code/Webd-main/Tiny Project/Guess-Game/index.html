@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Guessing</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    
+    <header>
+        <div class="main">Guessing Game</div>
+        <!-- <div class="main">Guess the Number Game</div> -->
+    </header>
+    
+</head>
+<body>
+<!-- Welcome Screen -->
+    <h2>Guess the Number Game</h2>
+    <p class="diff">Choose the Difficulty :</p>
+    <div class="cntrbtn">
+    <input class="btn" type="button" value="Easy - 10 Times">
+    <br><br>
+    <input class="btn" type="button" value="Medium - 5 Times">
+    <br><br>
+    <input class="btn" type="button" value="Pro - 2 Times">
+    </div>
+
+<!-- Actual Game Area -->
+<section class="mainGameArea">
+
+    <button class="btn">New Game</button>
+    <h3>Your Guess</h3>
+    <input type="text" name="guess" id="">
+    <section class="info">
+        <h3>No. of attempts left :</h3>
+        <span id="attempts"> 0 </span>
+
+        <h3>Your previous attempts :</h3>
+        <span id="guesses"> 0 </span>
+
+    </section>
+</section>
+</body>
+</html>

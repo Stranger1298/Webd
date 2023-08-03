@@ -1,0 +1,77 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: rgb(118, 161, 241); */
+    /* background-image: url(bg-2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial;
+}
+.main{
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 60px;
+    text-shadow: 2px 5px black;
+}
+/* header{
+    background-image: url(bg-1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+body{
+    /* height: 100vh; */
+    width: 30vw;
+    background-color:blueviolet ;
+    border: solid rgb(211, 186, 234);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+h2{
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 40px;
+    text-shadow: 2px 5px black;
+    transition-duration: 0.5s;
+}
+.diff{
+    box-direction: 2px solid black;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 4px black;
+    transition-duration: 0.5s;
+
+}
+.cntrbtn{
+   text-align: center;
+   margin-top: 100px;
+}
+.btn{
+    height: 60px;
+    width: 350px;
+    border-radius: 25px;
+    font-family: 'Bungee Spice', cursive;
+    background-color: rgb(46, 46, 71);
+    font-size: 30px;
+    
+}
+.btn:hover{
+    box-shadow: 2px 4px rgb(15, 12, 12);
+    /* transition: 0.5s; */
+}
+h3{
+    font-style: oblique;
+    font-size: 30px;
+    color: aliceblue;
+}
+.mainGameArea{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
