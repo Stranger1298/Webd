@@ -22,7 +22,7 @@
 
 
 fn main() {
-    let user1=One{
+    let mut user1=One{
         name:String::from("Aman"),
         usn:String::from("1sg22cs006"),
         email:String::from("demo@gmail.com"),
