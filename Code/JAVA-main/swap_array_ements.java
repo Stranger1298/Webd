@@ -1,5 +1,5 @@
 
-public class arrayList {
+public class swap_array_ements {
     public static void main(String[] args) {
 //    int[] arr=new array[5];
     int[] arr1={1,5,4,3,7};

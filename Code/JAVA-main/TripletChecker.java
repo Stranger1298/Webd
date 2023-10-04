@@ -11,8 +11,8 @@ public class TripletChecker {
 
     }
 
-    public static void pythagorusChecker(int a , int b , int c) {
-        if (a*a + b*b == c*c) {
+    public static void pythagorusChecker(int p , int q , int r) {
+        if (p*p + q*q == r*r) {
             System.out.printf("Yes this is pythagorean triplet" );
         } else {
             System.out.printf("No this is not pythagorean triplet" );

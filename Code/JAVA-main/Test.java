@@ -1,8 +1,8 @@
 // import java.util.ArrayList;
-// import java.util.Scanner;
+ import java.util.Scanner;
 
-// public class Test {
-//     public static void main(String[] args) {
+ public class Test {
+     public static void main(String[] args) {
 //         Scanner in = new Scanner(System.in);
 //         // Syntax
 //         ArrayList<Integer> list = new ArrayList<>(5);
@@ -35,7 +35,13 @@
 //         System.out.println(list);
 
 
-
-//     }
-// }
+         int L = 5;
+         int B = 4;
+         int area;
+         if (L >= 0 && B <= 100) {
+             area = L * B;
+             System.out.println(area);
+         }
+     }
+ }
 

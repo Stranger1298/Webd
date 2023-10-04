@@ -6,9 +6,8 @@ public class Arrays_2D {
         for (int row = 0; row < 3 /*row.length */; row++) {
                 for (int col = 0; col < 3 /*col.length*/; col++)
                     System.out.println(arr_2d[row] [col]+ "  ");
-                    System.out.println();
             }
-           
+        System.out.println();
         }
     }
 
