@@ -1,0 +1,119 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "invPyramid2",
+      "request": "launch",
+      "mainClass": "Patterns.invPyramid2",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "invPyramid",
+      "request": "launch",
+      "mainClass": "Patterns.invPyramid",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "HollowRect",
+      "request": "launch",
+      "mainClass": "Patterns.HollowRect",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "max2d",
+      "request": "launch",
+      "mainClass": "LS.max2d",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "maxSearch",
+      "request": "launch",
+      "mainClass": "LS.maxSearch",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "linarSearch3",
+      "request": "launch",
+      "mainClass": "LS.linarSearch3",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "linearS2",
+      "request": "launch",
+      "mainClass": "LS.linearS2",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "linearS",
+      "request": "launch",
+      "mainClass": "linearS",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "pallindrome",
+      "request": "launch",
+      "mainClass": "pallindrome",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Function",
+      "request": "launch",
+      "mainClass": "Function",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "bin_coeff",
+      "request": "launch",
+      "mainClass": "bin_coeff",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "conversion",
+      "request": "launch",
+      "mainClass": "conversion",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "factorial",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "pattern",
+      "request": "launch",
+      "mainClass": "pattern",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "prime_check",
+      "request": "launch",
+      "mainClass": "prime_check",
+      "projectName": "java_94c9b410"
+    }
+  ]
+}
