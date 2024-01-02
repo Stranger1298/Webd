@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "stackop",
+      "request": "launch",
+      "mainClass": "Stack.stackop",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
       "name": "invPyramid2",
       "request": "launch",
       "mainClass": "Patterns.invPyramid2",
