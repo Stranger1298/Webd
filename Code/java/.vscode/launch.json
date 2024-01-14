@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Student",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
+      "name": "oop",
+      "request": "launch",
+      "mainClass": "oop",
+      "projectName": "java_94c9b410"
+    },
+    {
+      "type": "java",
       "name": "stackop",
       "request": "launch",
       "mainClass": "Stack.stackop",

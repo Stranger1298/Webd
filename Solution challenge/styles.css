@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+/* Add your styling here */
